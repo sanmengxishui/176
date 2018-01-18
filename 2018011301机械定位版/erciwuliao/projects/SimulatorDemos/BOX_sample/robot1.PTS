@@ -1,0 +1,45 @@
+ENVT0100,LM:2016/02/04 23:25:06:283,DS:0000000678,CS:30264,MA:E8-40-F2-09-3E-77,EI:           
+sVersion="2.0.0"
+nNumberOfPoints=2
+Point1 {
+	nNumber=1
+	sLabel=""
+	sDescription=""
+	nUndefined=0
+	rX=0.000000
+	rY=612.989380
+	rZ=168.105484
+	rU=90.000000
+	rV=-26.999987
+	rW=180.000000
+	rR=0.000000
+	rS=0.000000
+	rT=0.000000
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ6Flag=0
+	nJ4Flag=0
+}
+Point2 {
+	nNumber=10
+	sLabel=""
+	sDescription=""
+	nUndefined=0
+	rX=0.000000
+	rY=631.630066
+	rZ=259.536591
+	rU=90.000000
+	rV=-37.008942
+	rW=180.000000
+	rR=0.000000
+	rS=0.000000
+	rT=0.000000
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ6Flag=0
+	nJ4Flag=0
+}

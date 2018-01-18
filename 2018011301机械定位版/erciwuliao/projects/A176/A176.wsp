@@ -1,0 +1,178 @@
+ENVT0100,LM:2018/01/14 01:04:33:239,DS:0000002394,CS:05383,MA:A0-36-9F-CB-42-A9,EI:           
+sActiveChild="Main.prg"
+bMdiMaximized=False
+nProgramFileCount=1
+ProgramFile1 {
+	sName="Main.prg"
+	bOpened=True
+	nWinState=0
+	Window {
+		nLeft=15
+		nTop=-16
+		nWidth=1191
+		nHeight=739
+	}
+}
+nIncludeFileCount=0
+nPointFileCount=1
+PointFile1 {
+	sName="robot1.pts"
+	bOpened=False
+	nWinState=0
+	Window {
+		nLeft=64
+		nTop=63
+		nWidth=959
+		nHeight=576
+	}
+}
+nForceFileCount=0
+sActiveWindow="main.prg"
+CmdWindow {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+	nWinState=0
+}
+RunWindow {
+	bOpened=True
+	Window {
+		nLeft=347
+		nTop=6
+		nWidth=741
+		nHeight=577
+	}
+	nWinState=0
+	nNumOfDisplays=1
+	nSplitterDistance=244
+	Display1 {
+		nCamera=0
+		sSequences="1"
+	}
+	Display2 {
+		nCamera=0
+		sSequences="1"
+	}
+	Display3 {
+		nCamera=0
+		sSequences="1"
+	}
+	Display4 {
+		nCamera=0
+		sSequences="1"
+	}
+	Display5 {
+		nCamera=0
+		sSequences="1"
+	}
+	Display6 {
+		nCamera=0
+		sSequences="1"
+	}
+}
+IOLabelEditor {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+	nWinState=0
+}
+IOMonitor {
+	bOpened=False
+	Window {
+		nLeft=331
+		nTop=141
+		nWidth=538
+		nHeight=549
+	}
+}
+Simulator {
+	bOpened=False
+	Window {
+		nLeft=81
+		nTop=38
+		nWidth=775
+		nHeight=479
+	}
+}
+TaskMgr {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+}
+Macros {
+	bOpened=False
+	Window {
+		nLeft=444
+		nTop=155
+		nWidth=478
+		nHeight=418
+	}
+}
+RobotMgr {
+	bOpened=False
+	Window {
+		nLeft=67
+		nTop=16
+		nWidth=748
+		nHeight=520
+	}
+}
+UserErrorEditor {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=881
+		nHeight=421
+	}
+	nWinState=0
+}
+VisionGuide {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+	nWinState=0
+}
+GUIBuilder {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+	nWinState=0
+}
+ProjectExplorer {
+	bProgramsOpened=False
+	bIncludesOpened=False
+	bLabelsOpened=False
+	bMacrosOpened=False
+	bFunctionsOpened=False
+	bVisionOpened=False
+	bVisionSequencesOpened=False
+	bVisionCalibsOpened=False
+	bGUIBOpened=False
+	bGUIBFormsOpened=False
+	bRobotPointsOpened=False
+	bCommonPointsOpened=False
+	bForcesOpened=False
+	bCommonForcesOpened=False
+	bRobotsOpened1=False
+}

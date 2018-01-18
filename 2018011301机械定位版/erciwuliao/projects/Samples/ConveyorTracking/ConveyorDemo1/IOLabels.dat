@@ -1,0 +1,264 @@
+ENVT0100,LM:2009/10/20 21:11:25:098,DS:0000004260,CS:07799,MA:00-19-D1-20-C9-6E,EI:           
+sRCVersion="6.0.0"
+InputBitLabels {
+	nNumberOfLabels=5
+	Label1 {
+		nBit=0
+		sLabel="VacuumOK1"
+		sDescription="Robot 1 vacuum OK"
+	}
+	Label2 {
+		nBit=1
+		sLabel="VacuumOK2"
+		sDescription="Robot 2 vacuum OK"
+	}
+	Label3 {
+		nBit=12
+		sLabel="StartSw"
+		sDescription="Start cycle switch"
+	}
+	Label4 {
+		nBit=13
+		sLabel="StopSw"
+		sDescription="Stop cycle switch"
+	}
+	Label5 {
+		nBit=14
+		sLabel="ResetSw"
+		sDescription="Reset switch"
+	}
+}
+InputByteLabels {
+	nNumberOfLabels=0
+}
+InputWordLabels {
+	nNumberOfLabels=0
+}
+OutputBitLabels {
+	nNumberOfLabels=38
+	Label1 {
+		nBit=0
+		sLabel="Vacuum1"
+		sDescription="Robot 1 vacuum"
+	}
+	Label2 {
+		nBit=1
+		sLabel="Blow1"
+		sDescription="Robot 1 blow"
+	}
+	Label3 {
+		nBit=2
+		sLabel="Vacuum2"
+		sDescription="Robot 2 vacuum"
+	}
+	Label4 {
+		nBit=3
+		sLabel="Blow2"
+		sDescription="Robot 2 blow"
+	}
+	Label5 {
+		nBit=4
+		sLabel="MainCnv"
+		sDescription="Run main conveyor"
+	}
+	Label6 {
+		nBit=5
+		sLabel="RightCnv"
+		sDescription="Run right conveyor"
+	}
+	Label7 {
+		nBit=6
+		sLabel="BackCnv"
+		sDescription="Run back conveyor"
+	}
+	Label8 {
+		nBit=7
+		sLabel="UpCnv"
+		sDescription="Run up conveyor"
+	}
+	Label9 {
+		nBit=8
+		sLabel="PlaceCnv1"
+		sDescription="Run place conveyor 1"
+	}
+	Label10 {
+		nBit=9
+		sLabel="PlaceCnv2"
+		sDescription="Run place conveyor 2"
+	}
+	Label11 {
+		nBit=10
+		sLabel="LED"
+		sDescription="Vision LED"
+	}
+	Label12 {
+		nBit=11
+		sLabel="Vis_Trigger"
+		sDescription="Trigger for async reset camera"
+	}
+	Label13 {
+		nBit=12
+		sLabel="StartLamp"
+		sDescription=""
+	}
+	Label14 {
+		nBit=13
+		sLabel="StopLamp"
+		sDescription=""
+	}
+	Label15 {
+		nBit=14
+		sLabel="ResetLamp"
+		sDescription=""
+	}
+	Label16 {
+		nBit=15
+		sLabel="Cv_Trigger"
+		sDescription="Conveyor trigger"
+	}
+	Label17 {
+		nBit=48
+		sLabel="rb2_chuck1_down"
+		sDescription=""
+	}
+	Label18 {
+		nBit=49
+		sLabel="rb2_chuck1_up"
+		sDescription=""
+	}
+	Label19 {
+		nBit=50
+		sLabel="rb2_chuck2_down"
+		sDescription=""
+	}
+	Label20 {
+		nBit=51
+		sLabel="rb2_chuck2_up"
+		sDescription=""
+	}
+	Label21 {
+		nBit=52
+		sLabel="rb2_chuck1_hakai"
+		sDescription="‹z’…”j‰ó"
+	}
+	Label22 {
+		nBit=53
+		sLabel="rb2_vacume1_on"
+		sDescription="‹z’…ON"
+	}
+	Label23 {
+		nBit=54
+		sLabel="rb2_vacume1_off"
+		sDescription="‹z’…OFF"
+	}
+	Label24 {
+		nBit=55
+		sLabel="rb2_chuck2_hakai"
+		sDescription="‹z’…”j‰ó"
+	}
+	Label25 {
+		nBit=56
+		sLabel="rb2_vacume2_on"
+		sDescription="‹z’…ON"
+	}
+	Label26 {
+		nBit=57
+		sLabel="rb2_vacume2_off"
+		sDescription="‹z’…OFF"
+	}
+	Label27 {
+		nBit=58
+		sLabel="conveyor1_move"
+		sDescription="ƒrƒWƒ‡ƒ“ƒRƒ“ƒxƒA"
+	}
+	Label28 {
+		nBit=59
+		sLabel="conveyor2_move"
+		sDescription="ƒZƒ“ƒTƒRƒ“ƒxƒA"
+	}
+	Label29 {
+		nBit=64
+		sLabel="rb1_chuck1_down"
+		sDescription=""
+	}
+	Label30 {
+		nBit=65
+		sLabel="rb1_chuck1_up"
+		sDescription=""
+	}
+	Label31 {
+		nBit=66
+		sLabel="rb1_chuck2_down"
+		sDescription=""
+	}
+	Label32 {
+		nBit=67
+		sLabel="rb1_chuck2_up"
+		sDescription=""
+	}
+	Label33 {
+		nBit=68
+		sLabel="rb1_chuck1_hakai"
+		sDescription="‹z’…”j‰ó"
+	}
+	Label34 {
+		nBit=69
+		sLabel="rb1_vacume1_on"
+		sDescription="‹z’…ON"
+	}
+	Label35 {
+		nBit=70
+		sLabel="rb1_vacume1_off"
+		sDescription="‹z’…OFF"
+	}
+	Label36 {
+		nBit=71
+		sLabel="rb1_chuck2_hakai"
+		sDescription="‹z’…”j‰ó"
+	}
+	Label37 {
+		nBit=72
+		sLabel="rb1_vacume2_on"
+		sDescription="‹z’…ON"
+	}
+	Label38 {
+		nBit=73
+		sLabel="rb1_vacume2_off"
+		sDescription="‹z’…OFF"
+	}
+}
+OutputByteLabels {
+	nNumberOfLabels=0
+}
+OutputWordLabels {
+	nNumberOfLabels=0
+}
+MemoryBitLabels {
+	nNumberOfLabels=4
+	Label1 {
+		nBit=0
+		sLabel="VisionReady"
+		sDescription="Indicates to other tasks that vision task is ready"
+	}
+	Label2 {
+		nBit=10
+		sLabel="StopCycle"
+		sDescription="Stop cycle flag"
+	}
+	Label3 {
+		nBit=11
+		sLabel="StopRB1"
+		sDescription="Stop robot 1 flag"
+	}
+	Label4 {
+		nBit=12
+		sLabel="StopRB2"
+		sDescription="Stop robot 2 flag"
+	}
+}
+MemoryByteLabels {
+	nNumberOfLabels=0
+}
+MemoryWordLabels {
+	nNumberOfLabels=0
+}

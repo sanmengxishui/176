@@ -1,0 +1,29 @@
+ENVT0100,LM:2016/03/01 05:54:29:988,DS:0000000497,CS:26637,MA:E8-40-F2-09-3E-77,EI:           
+sRCVersion="7.2.0"
+InputBitLabels {
+	nNumberOfLabels=0
+}
+InputByteLabels {
+	nNumberOfLabels=0
+}
+InputWordLabels {
+	nNumberOfLabels=0
+}
+OutputBitLabels {
+	nNumberOfLabels=0
+}
+OutputByteLabels {
+	nNumberOfLabels=0
+}
+OutputWordLabels {
+	nNumberOfLabels=0
+}
+MemoryBitLabels {
+	nNumberOfLabels=0
+}
+MemoryByteLabels {
+	nNumberOfLabels=0
+}
+MemoryWordLabels {
+	nNumberOfLabels=0
+}

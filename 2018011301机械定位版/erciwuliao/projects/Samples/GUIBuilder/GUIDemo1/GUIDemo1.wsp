@@ -1,0 +1,158 @@
+ENVT0100,LM:2009/12/02 17:20:10:670,DS:0000001971,CS:22033,MA:00-19-D1-20-C9-6E,EI:           
+sActiveChild="GUI Builder"
+bMdiMaximized=False
+nProgramFileCount=3
+ProgramFile1 {
+	sName="Main.prg"
+	bOpened=True
+	nWinState=0
+	Window {
+		nLeft=1
+		nTop=0
+		nWidth=829
+		nHeight=635
+	}
+}
+ProgramFile2 {
+	sName="frmMain.prg"
+	bOpened=False
+	nWinState=0
+	Window {
+		nLeft=94
+		nTop=24
+		nWidth=833
+		nHeight=728
+	}
+}
+ProgramFile3 {
+	sName="frmSetup.prg"
+	bOpened=False
+	nWinState=0
+	Window {
+		nLeft=135
+		nTop=168
+		nWidth=756
+		nHeight=498
+	}
+}
+nIncludeFileCount=0
+nPointFileCount=2
+PointFile1 {
+	sName="robot1.pts"
+	bOpened=False
+	nWinState=0
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+}
+PointFile2 {
+	sName="robot2.pts"
+	bOpened=False
+	nWinState=0
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+}
+sActiveWindow="main.prg"
+CmdWindow {
+	bOpened=False
+	Window {
+		nLeft=166
+		nTop=158
+		nWidth=703
+		nHeight=442
+	}
+	nWinState=0
+}
+RunWindow {
+	bOpened=False
+	Window {
+		nLeft=392
+		nTop=173
+		nWidth=630
+		nHeight=388
+	}
+	nWinState=0
+}
+IOLabelEditor {
+	bOpened=False
+	Window {
+		nLeft=2
+		nTop=277
+		nWidth=582
+		nHeight=389
+	}
+	nWinState=0
+}
+IOMonitor {
+	bOpened=False
+	Window {
+		nLeft=725
+		nTop=231
+		nWidth=478
+		nHeight=327
+	}
+}
+TaskMgr {
+	bOpened=False
+	Window {
+		nLeft=664
+		nTop=198
+		nWidth=470
+		nHeight=254
+	}
+}
+Macros {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+}
+RobotMgr {
+	bOpened=False
+	Window {
+		nLeft=190
+		nTop=203
+		nWidth=690
+		nHeight=486
+	}
+}
+UserErrorEditor {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+	nWinState=0
+}
+VisionGuide {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+	nWinState=0
+}
+GUIBuilder {
+	bOpened=True
+	Window {
+		nLeft=1
+		nTop=3
+		nWidth=948
+		nHeight=625
+	}
+	nWinState=0
+}

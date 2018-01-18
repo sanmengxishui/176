@@ -1,0 +1,39 @@
+ENVT0100,LM:2014/08/01 02:18:36:727,DS:0000000624,CS:06417,MA:F0-DE-F1-2E-8C-B9,EI:           
+sRCVersion="7.0.5"
+InputBitLabels {
+	nNumberOfLabels=1
+	Label1 {
+		nBit=9
+		sLabel="Move_en"
+		sDescription=""
+	}
+}
+InputByteLabels {
+	nNumberOfLabels=0
+}
+InputWordLabels {
+	nNumberOfLabels=0
+}
+OutputBitLabels {
+	nNumberOfLabels=1
+	Label1 {
+		nBit=9
+		sLabel="chuiqi"
+		sDescription=""
+	}
+}
+OutputByteLabels {
+	nNumberOfLabels=0
+}
+OutputWordLabels {
+	nNumberOfLabels=0
+}
+MemoryBitLabels {
+	nNumberOfLabels=0
+}
+MemoryByteLabels {
+	nNumberOfLabels=0
+}
+MemoryWordLabels {
+	nNumberOfLabels=0
+}

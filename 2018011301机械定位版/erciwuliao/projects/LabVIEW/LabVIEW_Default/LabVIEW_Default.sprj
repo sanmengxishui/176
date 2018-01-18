@@ -1,0 +1,148 @@
+ENVT0100,LM:2014/05/11 19:15:41:725,DS:0000003174,CS:29740,MA:00-19-D1-20-C9-6E,EI:           
+SystemProperties {
+	sRCVersion="7.1.0"
+	sRCRevision=""
+	sGUID="fa74d264-bf84-49b0-9ecd-9d7811166a86"
+	sPath="c:\\EpsonRC70\\Projects\\LabVIEW\\LabVIEW_Default\\"
+	sCreated="5/8/2014 1:59:52 PM"
+	sLastModified="5/8/2014 1:59:52 PM"
+	bBuildComplete=False
+	bFirstBuildComplete=False
+	bRebuildRequired=True
+	bClearControllerProject=False
+	bClearGlobalPreserves=False
+}
+UserProperties {
+	sVersion=""
+	sDescription=""
+	sNotes=""
+	sParserEmulationVersion=""
+	bStrictCompile=False
+	bGlobalsDeclaredEachFile=False
+}
+IOLabelFile {
+	sName="IOLabels.dat"
+	nChecksum=0
+}
+UserErrorsFile {
+	sName="UserErrors.dat"
+	nChecksum=0
+}
+nRobotCount=4
+nProgramFileCount=1
+ProgramFile1 {
+	sName="Main.prg"
+	bCompiled=True
+	bStoreInController=True
+	sTimeSavedInController="1/1/0001 8:00:00 AM"
+}
+nIncludeFileCount=0
+nPointFileCount=1
+PointFile1 {
+	sName="robot1.pts"
+	nRobot=1
+	bDefault=True
+	sTimeSavedInController="1/1/0001 8:00:00 AM"
+}
+OperatorSettings {
+	OperatorWindow {
+		sTitle="Operator Window"
+		nWinState=0
+		sFontName="Courier New"
+		rFontSize=10
+		bFontBold=False
+		bRobotMgrButton=True
+		bPauseContButtons=True
+		bIOMonitorButton=True
+		bSystemHistoryButton=True
+		bDisplayVision=False
+		bSimulatorButton=True
+		Program0 {
+			sName="Program"
+			bEnabled=True
+		}
+		Program1 {
+			sName="Program 1"
+			bEnabled=True
+		}
+		Program2 {
+			sName="Program 2"
+			bEnabled=True
+		}
+		Program3 {
+			sName="Program 3"
+			bEnabled=True
+		}
+		Program4 {
+			sName="Program 4"
+			bEnabled=True
+		}
+		Program5 {
+			sName="Program 5"
+			bEnabled=True
+		}
+		Program6 {
+			sName="Program 6"
+			bEnabled=True
+		}
+		Program7 {
+			sName="Program 7"
+			bEnabled=True
+		}
+	}
+	RobotManager {
+		bAllowReset=True
+		bAllowTeach=True
+		bAllowMotionCmds=True
+		bAllowDeletePoints=True
+		bAllowEditPoints=True
+		bAllowSFree=True
+		bAllowHome=True
+		bPromptNewPointInfo=True
+		bTeachDefinedOnly=True
+		bControlPanelTab=True
+		bJogTab=True
+		bPointsTab=True
+		bArchTab=False
+		bLocalsTab=False
+		bToolsTab=False
+		bArmsTab=False
+		bPalletsTab=False
+		bECPTab=False
+		bBoxesTab=False
+		bPlanesTab=False
+		bWeightTab=False
+		bInertiaTab=False
+		bXYZLimitsTab=False
+		bRangeTab=False
+		bHomeConfigTab=False
+		bMCalOrderTab=False
+	}
+	IOMonitor {
+		bStandardViewTab=True
+		bCustomView1Tab=True
+		bCustomView2Tab=False
+		bCustomView3Tab=False
+		bAllowChangeOutputs=False
+	}
+}
+IOCustomView1 {
+	sName=""
+	bVisible=True
+	nNumberOfRows=0
+}
+IOCustomView2 {
+	sName=""
+	bVisible=False
+	nNumberOfRows=0
+}
+IOCustomView3 {
+	sName=""
+	bVisible=False
+	nNumberOfRows=0
+}
+nVisFileCount=1
+VisFile1 {
+	sName="LabVIEW_Default.vis"
+}
+nGuiBuilderFileCount=0

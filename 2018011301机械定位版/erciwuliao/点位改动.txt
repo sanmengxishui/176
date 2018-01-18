@@ -1,0 +1,4 @@
+1,去除putgetCGpassPOs2
+2,使用旧的waitGetGetPos 代替 putgetCGpassPOs3
+3,使用新的waitGetGetPos以及新的waitPutPutPos点位来就近启动设备
+更改日期为20170811.

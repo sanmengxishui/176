@@ -1,0 +1,145 @@
+ENVT0100,LM:2012/10/12 05:56:26:303,DS:0000002749,CS:18440,MA:00-22-15-0B-08-EB,EI:           
+SystemProperties {
+	sRCVersion="7.0.0"
+	sGUID="ea2076e3-f1df-4728-9ee3-8e30e418a349"
+	sPath="C:\\EpsonRC70\\Projects\\SimulatorDemos\\CAD_To_Point\\"
+	sCreated="2012/08/23 9:33:48"
+	sLastModified="2012/10/12 14:08:54"
+	bBuildComplete=False
+	bFirstBuildComplete=False
+	bRebuildRequired=True
+	bClearControllerProject=False
+	bClearGlobalPreserves=False
+}
+UserProperties {
+	sVersion=""
+	sDescription=""
+	sNotes=""
+	sParserEmulationVersion=""
+	bStrictCompile=False
+	bGlobalsDeclaredEachFile=False
+}
+IOLabelFile {
+	sName="IOLabels.dat"
+	nChecksum=0
+}
+UserErrorsFile {
+	sName="UserErrors.dat"
+	nChecksum=0
+}
+nRobotCount=1
+nProgramFileCount=1
+ProgramFile1 {
+	sName="Main.prg"
+	bCompiled=True
+	bStoreInController=True
+}
+nIncludeFileCount=0
+nPointFileCount=1
+PointFile1 {
+	sName="robot1.pts"
+	nRobot=1
+	bDefault=True
+}
+OperatorSettings {
+	OperatorWindow {
+		sTitle="Operator Window"
+		nWinState=0
+		sFontName="ÇlÇr ÉSÉVÉbÉN"
+		rFontSize=10
+		bFontBold=False
+		bRobotMgrButton=True
+		bPauseContButtons=True
+		bIOMonitorButton=True
+		bSystemHistoryButton=True
+		bDisplayVision=False
+		bSimulatorButton=True
+		Program0 {
+			sName="Program"
+			bEnabled=True
+		}
+		Program1 {
+			sName="Program 1"
+			bEnabled=True
+		}
+		Program2 {
+			sName="Program 2"
+			bEnabled=True
+		}
+		Program3 {
+			sName="Program 3"
+			bEnabled=True
+		}
+		Program4 {
+			sName="Program 4"
+			bEnabled=True
+		}
+		Program5 {
+			sName="Program 5"
+			bEnabled=True
+		}
+		Program6 {
+			sName="Program 6"
+			bEnabled=True
+		}
+		Program7 {
+			sName="Program 7"
+			bEnabled=True
+		}
+	}
+	RobotManager {
+		bAllowReset=True
+		bAllowTeach=True
+		bAllowMotionCmds=True
+		bAllowDeletePoints=True
+		bAllowEditPoints=True
+		bAllowSFree=True
+		bAllowHome=True
+		bPromptNewPointInfo=True
+		bTeachDefinedOnly=True
+		bControlPanelTab=True
+		bJogTab=True
+		bPointsTab=True
+		bArchTab=False
+		bLocalsTab=False
+		bToolsTab=False
+		bArmsTab=False
+		bPalletsTab=False
+		bECPTab=False
+		bBoxesTab=False
+		bPlanesTab=False
+		bWeightTab=False
+		bInertiaTab=False
+		bXYZLimitsTab=False
+		bRangeTab=False
+		bHomeConfigTab=False
+		bMCalOrderTab=False
+	}
+	IOMonitor {
+		bStandardViewTab=True
+		bCustomView1Tab=True
+		bCustomView2Tab=False
+		bCustomView3Tab=False
+		bAllowChangeOutputs=False
+	}
+}
+IOCustomView1 {
+	sName=""
+	bVisible=True
+	nNumberOfRows=0
+}
+IOCustomView2 {
+	sName=""
+	bVisible=False
+	nNumberOfRows=0
+}
+IOCustomView3 {
+	sName=""
+	bVisible=False
+	nNumberOfRows=0
+}
+nVisFileCount=1
+VisFile1 {
+	sName="CAD_To_Point.vis"
+}
+nGuiBuilderFileCount=0

@@ -1,0 +1,125 @@
+ENVT0100,LM:2006/06/01 16:32:28:991,DS:0000002268,CS:12122,MA:00-80-4C-4B-3F-03,EI:           
+SystemProperties {
+	sRC60Version="6.0.0"
+	sGUID="3aae51b9-2720-4de0-aa82-16a5eec9ee24"
+	bSimple=False
+	sCreated="5/8/2006 12:43:44 PM"
+	sLastModified="3/21/2009 9:30:36 AM"
+	bBuildComplete=False
+	bRebuildRequired=True
+	bClearControllerProject=False
+}
+UserProperties {
+	sVersion=""
+	sDescription=""
+	sNotes=""
+}
+IOLabelFile {
+	sName="IOLabels.dat"
+	nChecksum=0
+}
+UserErrorsFile {
+	sName="UserErrors.dat"
+	nChecksum=0
+}
+nProgramFileCount=1
+ProgramFile1 {
+	sName="Main.prg"
+	bCompiled=True
+	bStoreInController=True
+}
+nIncludeFileCount=0
+nPointFileCount=1
+PointFile1 {
+	sName="robot1.pts"
+}
+OperatorSettings {
+	OperatorWindow {
+		sTitle="Operator Window"
+		nWinState=0
+		sFontName="Courier New"
+		rFontSize=10.000000
+		bFontBold=False
+		bRobotMgrButton=True
+		bPauseContButtons=True
+		bIOMonitorButton=True
+		bSystemHistoryButton=True
+		Program0 {
+			sName="Program"
+			bEnabled=True
+		}
+		Program1 {
+			sName="Program 1"
+			bEnabled=False
+		}
+		Program2 {
+			sName="Program 2"
+			bEnabled=False
+		}
+		Program3 {
+			sName="Program 3"
+			bEnabled=False
+		}
+		Program4 {
+			sName="Program 4"
+			bEnabled=False
+		}
+		Program5 {
+			sName="Program 5"
+			bEnabled=False
+		}
+		Program6 {
+			sName="Program 6"
+			bEnabled=False
+		}
+		Program7 {
+			sName="Program 7"
+			bEnabled=False
+		}
+	}
+	RobotManager {
+		bAllowTeach=True
+		bAllowMotionCmds=True
+		bAllowDeletePoints=True
+		bAllowEditPoints=True
+		bAllowSFree=True
+		bAllowHome=True
+		bPromptNewPointInfo=True
+		bTeachDefinedOnly=True
+		bControlPanelTab=True
+		bJogTab=True
+		bPointsTab=True
+		bArchTab=False
+		bLocalsTab=False
+		bToolsTab=False
+		bArmsTab=False
+		bECPTab=False
+		bWeightTab=False
+		bInertiaTab=False
+		bXYZLimitsTab=False
+		bRangeTab=False
+		bHomeConfigTab=False
+	}
+	IOMonitor {
+		bStandardViewTab=True
+		bCustomView1Tab=True
+		bCustomView2Tab=False
+		bCustomView3Tab=False
+		bAllowChangeOutputs=False
+	}
+}
+IOCustomView1 {
+	sName=""
+	bVisible=True
+	nNumberOfRows=0
+}
+IOCustomView2 {
+	sName=""
+	bVisible=False
+	nNumberOfRows=0
+}
+IOCustomView3 {
+	sName=""
+	bVisible=False
+	nNumberOfRows=0
+}

@@ -1,0 +1,52 @@
+ENVT0100,LM:2009/10/02 07:47:47:515,DS:0000001150,CS:13077,MA:00-80-4C-A4-80-1A,EI:           
+nNumberOfConveyors=2
+Conveyor1 {
+	sName="Conveyor 1"
+	nType=1
+	nRobotNumber=1
+	nEncoderNumber=1
+	nDownstreamConveyor=2
+	bCalibrated=True
+	sVisionCalSequence="CalConv01"
+	rCamX=1
+	rCamY=1
+	rCamA=-90.502371863577
+	rLocalX=465.38043288803
+	rLocalY=42.481922320441
+	rLocalZ=-62.703130206141
+	rLocalU=179.8051744226
+	rLocalV=-2.6031561578693E-005
+	rLocalW=1.3541974849541E-005
+	rPulseRate1=4223
+	rPulseRate2=199.20144992817
+	rUpstreamLimit=178.958
+	rDownstreamLimit=218
+	nDirection=1
+	bSorted=True
+	nQueDepth=1000
+}
+Conveyor2 {
+	sName="Conveyor 2"
+	nType=1
+	nRobotNumber=2
+	nEncoderNumber=1
+	nDownstreamConveyor=0
+	bCalibrated=True
+	sVisionCalSequence="CalConv01"
+	rCamX=1
+	rCamY=1
+	rCamA=-90.66819531277
+	rLocalX=911.52679107164
+	rLocalY=47.972514246449
+	rLocalZ=-25.618577983357
+	rLocalU=-179.69426758318
+	rLocalV=-9.0217734406556E-007
+	rLocalW=-1.1236957188397E-005
+	rPulseRate1=3039
+	rPulseRate2=142.71053543785
+	rUpstreamLimit=615
+	rDownstreamLimit=760.527
+	nDirection=1
+	bSorted=True
+	nQueDepth=1000
+}

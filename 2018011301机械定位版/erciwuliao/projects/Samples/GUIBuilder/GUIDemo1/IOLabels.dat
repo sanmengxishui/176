@@ -1,0 +1,64 @@
+ENVT0100,LM:2009/11/05 16:49:57:531,DS:0000000959,CS:29290,MA:00-80-4C-A4-80-29,EI:           
+sRCVersion="6.0.0 R1"
+InputBitLabels {
+	nNumberOfLabels=0
+}
+InputByteLabels {
+	nNumberOfLabels=0
+}
+InputWordLabels {
+	nNumberOfLabels=0
+}
+OutputBitLabels {
+	nNumberOfLabels=3
+	Label1 {
+		nBit=4
+		sLabel="EStopOn"
+		sDescription=""
+	}
+	Label2 {
+		nBit=5
+		sLabel="SafeguardOn"
+		sDescription=""
+	}
+	Label3 {
+		nBit=10
+		sLabel="Vacuum"
+		sDescription=""
+	}
+}
+OutputByteLabels {
+	nNumberOfLabels=0
+}
+OutputWordLabels {
+	nNumberOfLabels=0
+}
+MemoryBitLabels {
+	nNumberOfLabels=4
+	Label1 {
+		nBit=0
+		sLabel="InCycle"
+		sDescription=""
+	}
+	Label2 {
+		nBit=1
+		sLabel="EStopIsOn"
+		sDescription=""
+	}
+	Label3 {
+		nBit=2
+		sLabel="SafetyIsOn"
+		sDescription=""
+	}
+	Label4 {
+		nBit=3
+		sLabel="ErrorIsOn"
+		sDescription=""
+	}
+}
+MemoryByteLabels {
+	nNumberOfLabels=0
+}
+MemoryWordLabels {
+	nNumberOfLabels=0
+}

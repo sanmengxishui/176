@@ -1,0 +1,152 @@
+ENVT0100,LM:2016/02/16 04:41:36:013,DS:0000002044,CS:07782,MA:E8-40-F2-09-3E-77,EI:           
+sActiveChild="Main.prg"
+bMdiMaximized=False
+nProgramFileCount=1
+ProgramFile1 {
+	sName="Main.prg"
+	bOpened=True
+	nWinState=0
+	Window {
+		nLeft=45
+		nTop=33
+		nWidth=769
+		nHeight=772
+	}
+}
+nIncludeFileCount=0
+nPointFileCount=1
+PointFile1 {
+	sName="robot1.pts"
+	bOpened=False
+	nWinState=0
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=1094
+		nHeight=523
+	}
+}
+nForceFileCount=0
+sActiveWindow="main.prg"
+CmdWindow {
+	bOpened=False
+	Window {
+		nLeft=294
+		nTop=79
+		nWidth=623
+		nHeight=616
+	}
+	nWinState=0
+}
+RunWindow {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=682
+		nHeight=382
+	}
+	nWinState=0
+}
+IOLabelEditor {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+	nWinState=0
+}
+IOMonitor {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+}
+Simulator {
+	bOpened=False
+	Window {
+		nLeft=1000
+		nTop=257
+		nWidth=909
+		nHeight=729
+	}
+}
+TaskMgr {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+}
+Macros {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+}
+RobotMgr {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=708
+		nHeight=477
+	}
+}
+UserErrorEditor {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+	nWinState=0
+}
+VisionGuide {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+	nWinState=0
+}
+GUIBuilder {
+	bOpened=False
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+	nWinState=0
+}
+ProjectExplorer {
+	bProgramsOpened=True
+	bIncludesOpened=False
+	bLabelsOpened=False
+	bMacrosOpened=False
+	bFunctionsOpened=False
+	bVisionOpened=False
+	bVisionSequencesOpened=False
+	bVisionCalibsOpened=False
+	bGUIBOpened=False
+	bGUIBFormsOpened=False
+	bRobotPointsOpened=True
+	bCommonPointsOpened=False
+	bForcesOpened=False
+	bCommonForcesOpened=False
+	bRobotsOpened1=True
+}

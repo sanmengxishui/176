@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{555CC647-7CCB-462E-84FA-FE651A2F40FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutoCarry_CG</RootNamespace>
+    <AssemblyName>AutoCarry_CG</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>jpt.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="halcondotnet">
+      <HintPath>D:\Program Files\MVTec\HALCON-12.0\bin\dotnet35\halcondotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PylonC.NET, Version=4.1.0.0, Culture=neutral, PublicKeyToken=a77e8471c5919d5a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files\Basler\pylon 5\Development\Assemblies\PylonC.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="PylonC.NETSupportLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\PylonC.NETSupportLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="A162Client\A162ClientCom.cs" />
+    <Compile Include="A162Client\A162ClientComMgr.cs" />
+    <Compile Include="A162Client\A162ClientCom_Win.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A162Client\A162ClientCom_Win.Designer.cs">
+      <DependentUpon>A162ClientCom_Win.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FileOperation.cs" />
+    <Compile Include="Common\Helper.cs" />
+    <Compile Include="Common\Parameters.cs" />
+    <Compile Include="MachineSeq.cs" />
+    <Compile Include="mainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainWindow.Designer.cs">
+      <DependentUpon>mainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panasonic_PLC\Panasonic_PLC.cs" />
+    <Compile Include="Panasonic_PLC\Panasonic_PLCMgr.cs" />
+    <Compile Include="Panasonic_PLC\WinPanasonic_PLC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panasonic_PLC\WinPanasonic_PLC.Designer.cs">
+      <DependentUpon>WinPanasonic_PLC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RobotCommunication\RobotCom.cs" />
+    <Compile Include="RobotCommunication\RobotComMgr.cs" />
+    <Compile Include="RobotCommunication\WinRobotCom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RobotCommunication\WinRobotCom.Designer.cs">
+      <DependentUpon>WinRobotCom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RobotTcpSerive\TcpseriveCom.cs" />
+    <Compile Include="RobotTcpSerive\TcpseriveComMgr.cs" />
+    <Compile Include="RobotTcpSerive\TcpseriveWin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RobotTcpSerive\TcpseriveWin.Designer.cs">
+      <DependentUpon>TcpseriveWin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RobotVision.cs" />
+    <Compile Include="Sequencing\FuncObjects.cs" />
+    <Compile Include="Sequencing\MainSeqController.cs" />
+    <Compile Include="Sequencing\WorkerThread.cs" />
+    <Compile Include="Serial_Port\SerailCom.cs" />
+    <Compile Include="Serial_Port\SerailComMgr.cs" />
+    <Compile Include="Serial_Port\SP_Win.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Serial_Port\SP_Win.Designer.cs">
+      <DependentUpon>SP_Win.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestMessage.Designer.cs">
+      <DependentUpon>TestMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin.cs" />
+    <Compile Include="Vision\BaslerCamera.cs" />
+    <Compile Include="Vision\BaslerGigeCamera.cs" />
+    <Compile Include="Vision\BaslerGigeCameraMgr.cs" />
+    <Compile Include="Vision\CameraSelectionWin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vision\CameraSelectionWin.Designer.cs">
+      <DependentUpon>CameraSelectionWin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vision\HalconClass\FunctionPlot.cs" />
+    <Compile Include="Vision\HalconClass\GraphicsContext.cs" />
+    <Compile Include="Vision\HalconClass\HObjectEntry.cs" />
+    <Compile Include="Vision\HalconClass\HWndCtrl.cs" />
+    <Compile Include="Vision\HalconClass\ROI.cs" />
+    <Compile Include="Vision\HalconClass\ROICircle.cs" />
+    <Compile Include="Vision\HalconClass\ROICircularArc.cs" />
+    <Compile Include="Vision\HalconClass\ROIController.cs" />
+    <Compile Include="Vision\HalconClass\ROILine.cs" />
+    <Compile Include="Vision\HalconClass\ROIRectangle1.cs" />
+    <Compile Include="Vision\HalconClass\ROIRectangle2.cs" />
+    <Compile Include="Vision\HalconInspection.cs" />
+    <Compile Include="Vision\HalconVision.cs" />
+    <EmbeddedResource Include="A162Client\A162ClientCom_Win.resx">
+      <DependentUpon>A162ClientCom_Win.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainWindow.resx">
+      <DependentUpon>mainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panasonic_PLC\WinPanasonic_PLC.resx">
+      <DependentUpon>WinPanasonic_PLC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RobotCommunication\WinRobotCom.resx">
+      <DependentUpon>WinRobotCom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RobotTcpSerive\TcpseriveWin.resx">
+      <DependentUpon>TcpseriveWin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Serial_Port\SP_Win.resx">
+      <DependentUpon>SP_Win.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestMessage.resx">
+      <DependentUpon>TestMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vision\CameraSelectionWin.resx">
+      <DependentUpon>CameraSelectionWin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="jpt.ico" />
+    <Content Include="Resources\1-HomeEnable.png" />
+    <Content Include="Resources\12-UserEnable.png" />
+    <Content Include="Resources\2-SetingEnable.png" />
+    <Content Include="Resources\3-VisionEnable.png" />
+    <Content Include="Resources\7-StartEnable.png" />
+    <Content Include="Resources\8-PauseEnable.png" />
+    <Content Include="Resources\9-StopEnable.png" />
+    <Content Include="Resources\arrow-down-icon.png" />
+    <Content Include="Resources\arrow-up-icon.png" />
+    <Content Include="Resources\Axisgohome.png" />
+    <Content Include="Resources\Barcode_Img.png" />
+    <Content Include="Resources\BlackBtn.png" />
+    <Content Include="Resources\CreateNew.png" />
+    <Content Include="Resources\CrossHair.png" />
+    <Content Include="Resources\DefaultImg.bmp" />
+    <Content Include="Resources\delete-icon.png" />
+    <Content Include="Resources\delete-single-icon.png" />
+    <Content Include="Resources\DownArrow.png" />
+    <Content Include="Resources\FitToScreen.png" />
+    <Content Include="Resources\Green button.png" />
+    <Content Include="Resources\HeightSensorIcon.png" />
+    <Content Include="Resources\icon-Live-camera.png" />
+    <Content Include="Resources\icon-Stop-camera.png" />
+    <Content Include="Resources\iphone glass.jpg" />
+    <Content Include="Resources\Iphone.png" />
+    <Content Include="Resources\jiemtu9.png" />
+    <Content Include="Resources\jpt.ico" />
+    <Content Include="Resources\LeftArrow.png" />
+    <Content Include="Resources\Move_icon.png" />
+    <Content Include="Resources\rightArrow.png" />
+    <Content Include="Resources\Save.png" />
+    <Content Include="Resources\spectrometerImg2.png" />
+    <Content Include="Resources\TestPosition.png" />
+    <Content Include="Resources\UpArrow.png" />
+    <Content Include="Resources\zoom-in-icon.png" />
+    <Content Include="Resources\zoom_out.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

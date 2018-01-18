@@ -1,0 +1,58 @@
+ENVT0100,LM:2009/10/19 18:04:51:406,DS:0000000776,CS:27171,MA:00-80-4C-A4-80-29,EI:           
+sVersion="2.0.0"
+nDisplayMode=2
+bDisplayR=False
+bDisplayS=False
+bDisplayT=False
+nNumberOfJoints=4
+nNumberOfPoints=2
+Point1 {
+	nNumber=0
+	sLabel="pick"
+	sDescription=""
+	nUndefined=0
+	rX=-120.8
+	rY=821.026
+	rZ=-91.629
+	rU=134.324
+	rV=0
+	rW=0
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+}
+Point2 {
+	nNumber=1
+	sLabel="place"
+	sDescription=""
+	nUndefined=0
+	rX=-261.535
+	rY=787.576
+	rZ=-91.629
+	rU=144.324
+	rV=0
+	rW=0
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+}

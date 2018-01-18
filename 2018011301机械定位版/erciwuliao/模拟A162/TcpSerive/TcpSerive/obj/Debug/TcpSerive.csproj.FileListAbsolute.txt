@@ -1,0 +1,82 @@
+E:\JPT程序\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe.config
+E:\JPT程序\TcpSerive\TcpSerive\obj\Debug\TcpSerive.csprojResolveAssemblyReference.cache
+E:\JPT程序\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Form1.resources
+E:\JPT程序\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Tcpserive.resources
+E:\JPT程序\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Properties.Resources.resources
+E:\JPT程序\TcpSerive\TcpSerive\obj\Debug\TcpSerive.csproj.GenerateResource.Cache
+E:\JPT程序\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe
+E:\JPT程序\TcpSerive\TcpSerive\bin\Debug\TcpSerive.pdb
+E:\JPT程序\TcpSerive\TcpSerive\obj\Debug\TcpSerive.exe
+E:\JPT程序\TcpSerive\TcpSerive\obj\Debug\TcpSerive.pdb
+I:\新建文件夹 (2)\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe.config
+I:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.exe
+I:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.pdb
+I:\新建文件夹 (2)\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe
+I:\新建文件夹 (2)\TcpSerive\TcpSerive\bin\Debug\TcpSerive.pdb
+I:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.csprojResolveAssemblyReference.cache
+I:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Form1.resources
+I:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Tcpserive.resources
+I:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Properties.Resources.resources
+I:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.csproj.GenerateResource.Cache
+F:\新建文件夹 (2)\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe.config
+F:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.exe
+F:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.pdb
+F:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.csprojResolveAssemblyReference.cache
+F:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Form1.resources
+F:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Tcpserive.resources
+F:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Properties.Resources.resources
+F:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.csproj.GenerateResource.Cache
+F:\新建文件夹 (2)\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe
+F:\新建文件夹 (2)\TcpSerive\TcpSerive\bin\Debug\TcpSerive.pdb
+G:\新建文件夹 (2)\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe.config
+G:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.exe
+G:\新建文件夹 (2)\TcpSerive\TcpSerive\obj\Debug\TcpSerive.pdb
+D:\2017101601\模拟A162\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe.config
+D:\2017101601\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.exe
+D:\2017101601\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.pdb
+D:\2017101601\模拟A162\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe
+D:\2017101601\模拟A162\TcpSerive\TcpSerive\bin\Debug\TcpSerive.pdb
+D:\2017101601\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.csprojResolveAssemblyReference.cache
+D:\2017101601\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Form1.resources
+D:\2017101601\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Tcpserive.resources
+D:\2017101601\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Properties.Resources.resources
+D:\2017101601\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.csproj.GenerateResource.Cache
+D:\2017101701\模拟A162\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe.config
+D:\2017101701\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.exe
+D:\2017101701\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.pdb
+D:\2017101701\模拟A162\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe
+D:\2017101701\模拟A162\TcpSerive\TcpSerive\bin\Debug\TcpSerive.pdb
+D:\2017101701\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.csprojResolveAssemblyReference.cache
+D:\2017101701\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Form1.resources
+D:\2017101701\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Tcpserive.resources
+D:\2017101701\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Properties.Resources.resources
+D:\2017101701\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.csproj.GenerateResource.Cache
+D:\2017101801\模拟A162\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe.config
+D:\2017101801\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.exe
+D:\2017101801\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.pdb
+D:\2017101801\模拟A162\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe
+D:\2017101801\模拟A162\TcpSerive\TcpSerive\bin\Debug\TcpSerive.pdb
+D:\2017101801\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.csprojResolveAssemblyReference.cache
+D:\2017101801\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Form1.resources
+D:\2017101801\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Tcpserive.resources
+D:\2017101801\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Properties.Resources.resources
+D:\2017101801\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.csproj.GenerateResource.Cache
+I:\模拟A162\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe.config
+I:\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.exe
+I:\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.pdb
+I:\模拟A162\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe
+I:\模拟A162\TcpSerive\TcpSerive\bin\Debug\TcpSerive.pdb
+I:\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.csprojResolveAssemblyReference.cache
+I:\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Form1.resources
+I:\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Tcpserive.resources
+I:\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.Properties.Resources.resources
+I:\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.csproj.GenerateResource.Cache
+G:\模拟A162\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe.config
+G:\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.exe
+G:\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.pdb
+D:\2017101901\模拟A162\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe.config
+D:\2017101901\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.exe
+D:\2017101901\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.pdb
+E:\2017101901\模拟A162\TcpSerive\TcpSerive\bin\Debug\TcpSerive.exe.config
+E:\2017101901\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.exe
+E:\2017101901\模拟A162\TcpSerive\TcpSerive\obj\Debug\TcpSerive.pdb

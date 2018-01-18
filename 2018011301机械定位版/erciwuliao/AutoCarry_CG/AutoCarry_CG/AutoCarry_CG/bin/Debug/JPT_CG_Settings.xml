@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Parameter>
+  <Cam_robot>
+    <CameraID>RobotCamera (22205665)</CameraID>
+    <Mod1CenterX>-68.5157</Mod1CenterX>
+    <Mod1CenterY>476.6865</Mod1CenterY>
+    <Mod1CenterAngle>90.0185</Mod1CenterAngle>
+    <Mod2CenterX>-69.5504</Mod2CenterX>
+    <Mod2CenterY>476.8801</Mod2CenterY>
+    <Mod2CenterAngle>90.1438</Mod2CenterAngle>
+  </Cam_robot>
+  <Cam_TransWin>
+    <RobotExpose>13000</RobotExpose>
+  </Cam_TransWin>
+  <RobotComRobot1>
+    <IP>192.168.0.1</IP>
+    <Port>5566</Port>
+  </RobotComRobot1>
+  <Cam_mainWindow>
+    <RobotExpose>13000</RobotExpose>
+  </Cam_mainWindow>
+  <A162ClientComToA162>
+    <IP>192.168.50.1</IP>
+    <Port>5566</Port>
+  </A162ClientComToA162>
+  <A162Robot1>
+    <Port>369</Port>
+    <power>High</power>
+    <speed>32</speed>
+    <accel>65</accel>
+  </A162Robot1>
+</Parameter>

@@ -1,0 +1,39 @@
+ENVT0100,LM:2017/11/04 21:26:28:947,DS:0000000620,CS:06456,MA:A0-36-9F-CB-42-A9,EI:           
+sRCVersion="7.3.1"
+InputBitLabels {
+	nNumberOfLabels=2
+	Label1 {
+		nBit=0
+		sLabel="Start"
+		sDescription=""
+	}
+	Label2 {
+		nBit=5
+		sLabel="CGOK"
+		sDescription=""
+	}
+}
+InputByteLabels {
+	nNumberOfLabels=0
+}
+InputWordLabels {
+	nNumberOfLabels=0
+}
+OutputBitLabels {
+	nNumberOfLabels=0
+}
+OutputByteLabels {
+	nNumberOfLabels=0
+}
+OutputWordLabels {
+	nNumberOfLabels=0
+}
+MemoryBitLabels {
+	nNumberOfLabels=0
+}
+MemoryByteLabels {
+	nNumberOfLabels=0
+}
+MemoryWordLabels {
+	nNumberOfLabels=0
+}

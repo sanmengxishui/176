@@ -1,0 +1,33 @@
+ENVT0100,LM:2017/09/05 01:26:37:293,DS:0000000503,CS:02081,MA:56-13-79-11-4B-B3,EI:           
+sVersion="2.0.0"
+bDisplayR=False
+bDisplayS=False
+bDisplayT=False
+nNumberOfJoints=4
+nNumberOfPoints=1
+Point1 {
+	nNumber=1
+	sLabel="point_one"
+	sDescription=""
+	nUndefined=0
+	rX=-366.743
+	rY=379.21
+	rZ=-103.725
+	rU=116
+	rV=0
+	rW=0
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=2
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}

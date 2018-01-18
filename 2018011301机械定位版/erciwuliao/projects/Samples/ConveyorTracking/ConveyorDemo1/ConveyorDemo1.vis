@@ -1,0 +1,97 @@
+ENVT0100,LM:2009/10/20 20:35:21:573,DS:0000001816,CS:26887,MA:00-19-D1-20-C9-6E,EI:           
+sGUID="5d39f461-c62d-45a3-bca0-33397ff6ed9e"
+nCameraNumber=1
+nSequenceCount=3
+Sequence1 {
+	nExposureTime=1600
+	sName="CalCamera01"
+	nVideoWidth=640
+	nVideoHeight=480
+	nStepCount=1
+	Step1 {
+		nObjectType=2
+		sObjectTypeName="Blob"
+		rMaxArea=7000
+		rMinArea=5000
+		sName="Blob01"
+		nNumberToFind=9
+		nSearchWinHeight=482
+		nSearchWinLeft=59
+		nSearchWinTop=4
+		nSearchWinWidth=504
+		nThresholdHigh=110
+		nThresholdLow=0
+	}
+}
+Sequence2 {
+	nCalibration=1
+	nExposureTime=1600
+	sName="FindParts01"
+	nRuntimeAcquire=2
+	nVideoWidth=640
+	nVideoHeight=480
+	nStepCount=1
+	Step1 {
+		nObjectType=11
+		sObjectTypeName="Geometric"
+		nAccept=750
+		bAngleEnable=False
+		nModelOrgX=41
+		nModelOrgY=42
+		nModelWinHeight=84
+		nModelWinLeft=289
+		nModelWinTop=320
+		nModelWinWidth=82
+		sName="Geom01"
+		nNumberToFind=20
+		rScaleFactorMax=1
+		rScaleFactorMin=1
+		nSearchWinHeight=469
+		nSearchWinLeft=105
+		nSearchWinTop=8
+		nSearchWinWidth=412
+		nTimeout=500
+	}
+}
+Sequence3 {
+	nCalibration=1
+	nExposureTime=1600
+	sName="CalConv01"
+	nVideoWidth=640
+	nVideoHeight=480
+	nStepCount=2
+	Step1 {
+		nObjectType=2
+		sObjectTypeName="Blob"
+		rMaxArea=4500
+		rMinArea=1000
+		sName="Blob01"
+		nSearchWinHeight=233
+		nSearchWinLeft=59
+		nSearchWinTop=253
+		nSearchWinWidth=504
+		nThresholdHigh=74
+		nThresholdLow=0
+	}
+	Step2 {
+		nObjectType=2
+		sObjectTypeName="Blob"
+		rMaxArea=4500
+		rMinArea=1000
+		sName="Blob02"
+		nSearchWinHeight=252
+		nSearchWinLeft=61
+		nSearchWinWidth=499
+		nThresholdHigh=97
+		nThresholdLow=0
+	}
+}
+nCalibCount=1
+Calib1 {
+	nLampDelay=0
+	sName="Camera"
+	nTargetSequence=1
+	nUpwardSequence=0
+	bCalComplete=True
+	bPointsTaught=True
+}
